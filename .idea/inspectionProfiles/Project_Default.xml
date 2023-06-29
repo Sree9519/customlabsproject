@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="mobizapp.admin.OrdersAdmin" />
+          <option value="mobizapp.admin.CollectionsAdmin" />
+          <option value="mobizapp.admin.OperationsAdmin" />
+          <option value="mobizapp.admin.DeliveryAdmin" />
+          <option value="mobizapp.admin.StaffAdmin" />
+          <option value="mobizapp.admin.ProductsAdmin" />
+          <option value="mobizapp.admin.BagsAdmin" />
+          <option value="mobizapp.admin.AreasAdmin" />
+          <option value="mobizapp.admin.MastersAdmin" />
+          <option value="proapp.models.Product.objects" />
+          <option value="cart.models.CartItem.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="XmlInvalidId" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>
